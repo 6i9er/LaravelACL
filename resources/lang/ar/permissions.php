@@ -1,0 +1,25 @@
+<?php
+
+return array (
+  '_select_' => '-اختر-',
+  'action' => 'عمل',
+  'Add Group Permissions' => 'إضافة إذن المجموعة',
+  'Add Permission' => 'إضافة إذن',
+  'AllGroupPermissions' => 'قائمة جميع إذن المجموعة',
+  'allPermissions' => 'كل الأذونات',
+  'areYouSureYouWantToDublicateThisRow !!' => 'هل تريد تكرار هذا الصف !!!',
+  'cancel' => 'الغاء',
+  'Choose Group Permission' => 'اختر إذن المجموعة',
+  'enter Name ar' => 'ادخل الاسم ( عربي )',
+  'enter name en' => 'ادخل الاسم ( انجليزي )',
+  'group' => 'قسم',
+  'Group Permission Data' => 'بيانات إذن المجموعة',
+  'List All Group Permissions' => 'قائمة جميع أذونات المجموعة',
+  'Name ar' => 'الاسم ( عربي )',
+  'Name en' => 'الاسم ( انجليزي )',
+  'nameEn' => 'الاسم ( انجليزي )',
+  'nameAr' => 'الاسم ( عربي )',
+  'Permission Data' => 'بيانات الإذن',
+  'permissions' => 'الاذونات',
+  'save' => 'حفظ',
+);
