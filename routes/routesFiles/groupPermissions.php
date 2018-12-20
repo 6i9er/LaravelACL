@@ -11,13 +11,13 @@ Route::get('groups/all',[
 
 Route::post('groups/add',[
     'as'=>'addGroupPermission',
-    'uses'=> 'GroupPermissionsController@addgroupPermission'
+    'uses'=> 'GroupPermissionsController@saveGroupPermission'
 ]);
 
-Route::post('groups/edit',[
-    'as'=>'editGroupPermission',
-    'uses'=> 'GroupPermissionsController@editgroupPermission'
-]);
+//Route::post('groups/edit',[
+//    'as'=>'editGroupPermission',
+//    'uses'=> 'GroupPermissionsController@editgroupPermission'
+//]);
 
 Route::get('groups/delete',[
     'as'=>'deleteGroupPermission',

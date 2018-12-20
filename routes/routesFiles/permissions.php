@@ -11,14 +11,14 @@ Route::get('permissions/all',[
 ]);
 
 Route::post('permissions/add',[
-    'as'=>'addPermission',
-    'uses'=> 'PermissionsController@addPermission'
+    'as'=>'savePermission',
+    'uses'=> 'PermissionsController@savePermission'
 ]);
 
-Route::post('permissions/edit',[
-    'as'=>'editPermission',
-    'uses'=> 'PermissionsController@editPermission'
-]);
+//Route::post('permissions/edit',[
+//    'as'=>'editPermission',
+//    'uses'=> 'PermissionsController@editPermission'
+//]);
 
 Route::get('permissions/delete',[
     'as'=>'deletePermission',

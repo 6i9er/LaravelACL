@@ -70,6 +70,7 @@
     @include('permissions.scripts.addPermissionsScript')
     @include('permissions.scripts.addGroupPermissionsScript')
     @include('templates.scripts.modals')
+    @include('templates.scripts.validation')
 @endsection
 
 @section('styles')
